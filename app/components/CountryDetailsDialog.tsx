@@ -23,14 +23,14 @@ export default function CountryDetailsDialog({
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
-            <DialogContent className="sm:max-w-lg">
+            <DialogContent className="sm:max-w-md max-h-[85vh] overflow-y-auto">
                 <DialogHeader>
                     <DialogTitle>Detalles del país</DialogTitle>
                 </DialogHeader>
 
-                <div className="space-y-6">
+                <div className="space-y-4">
                     {/* Bandera */}
-                    <div className="w-full h-48 rounded-lg overflow-hidden border shadow-md">
+                    <div className="w-full h-32 sm:h-40 rounded-lg overflow-hidden border border-border shadow-md">
                         <img
                             src={country.flags?.svg ?? ""}
                             alt={`Bandera de ${country.name?.common ?? "país"}`}
@@ -38,36 +38,36 @@ export default function CountryDetailsDialog({
                         />
                     </div>
 
-                    <div className="space-y-3">
+                    {/* Información */}
+                    <div className="space-y-2.5">
                         {/* Nombre común */}
-                        <div className="p-4 rounded-lg bg-muted/30 border">
+                        <div className="p-3 rounded-lg bg-muted/30 border border-border">
                             <p className="text-muted-foreground mb-1">Nombre común</p>
                             <p>{country.name?.common ?? "Desconocido"}</p>
                         </div>
 
                         {/* Nombre oficial */}
-                        <div className="p-4 rounded-lg bg-muted/30 border">
+                        <div className="p-3 rounded-lg bg-muted/30 border border-border">
                             <p className="text-muted-foreground mb-1">Nombre oficial</p>
                             <p>{country.name?.official ?? "No disponible"}</p>
                         </div>
 
                         {/* Región */}
-                        <div className="p-4 rounded-lg bg-muted/30 border">
+                        <div className="p-3 rounded-lg bg-muted/30 border border-border">
                             <p className="text-muted-foreground mb-1">Región</p>
                             <p>{country.region ?? "No especificada"}</p>
                         </div>
 
                         {/* Capital */}
                         {country.capital && country.capital.length > 0 && (
-                            <div className="p-4 rounded-lg bg-muted/30 border">
+                            <div className="p-3 rounded-lg bg-muted/30 border border-border">
                                 <p className="text-muted-foreground mb-1">Capital</p>
                                 <p>{country.capital[0]}</p>
                             </div>
                         )}
 
-
                         {/* Población */}
-                        <div className="p-4 rounded-lg bg-muted/30 border">
+                        <div className="p-3 rounded-lg bg-muted/30 border border-border">
                             <p className="text-muted-foreground mb-1">Población</p>
                             <p>
                                 {new Intl.NumberFormat("es-ES").format(

@@ -18,7 +18,7 @@ export default function Navbar() {
                     </h1>
 
                     {/* Links + Botón Dark/Light */}
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-4 max-[420px]:gap-1">
                         <Link
                             href="/"
                             className={`px-3 py-1 rounded-md transition-colors font-medium ${pathname === "/"

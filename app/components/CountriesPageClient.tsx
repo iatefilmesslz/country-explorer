@@ -87,7 +87,7 @@ export default function CountriesPageClient() {
     if (error) return <div className="p-6 text-red-600">Error: {error}</div>;
 
     return (
-        <div className="p-6 space-y-4">
+        <div className="container mx-auto px-4 py-8">
             <Filters
                 search={search}
                 setSearch={setSearch}
