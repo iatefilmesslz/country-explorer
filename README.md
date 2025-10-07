@@ -13,10 +13,6 @@ Aplicación web para explorar información de países de todo el mundo utilizand
 - **Modal de detalle** con información completa del país
 - **Página de favoritos** con gestión de estado global
 
-### Opcional Implementado
-
-✅ **Ordenar por nombre o población** (ascendente/descendente)
-
 ## 🛠️ Tecnologías Utilizadas
 
 - **Next.js 14** (App Router)
@@ -87,7 +83,6 @@ La aplicación es completamente responsive y funciona en:
 - Móviles
 - Tablets
 - Desktop
-
 
 ## 🔗 API
 
