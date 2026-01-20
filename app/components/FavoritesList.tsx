@@ -8,7 +8,7 @@ import { useFavorites } from "../stores/useFavorites";
 import CountryDetailsDialog from "../components/CountryDetailsDialog";
 
 export default function FavoritesPage() {
-    const { favorites, remove, isFavorite } = useFavorites();
+    const favorites = useFavorites((state) => state.favorites);
     const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
     const [dialogOpen, setDialogOpen] = useState(false);
 
@@ -61,4 +61,3 @@ export default function FavoritesPage() {
         </div>
     );
 }
-
