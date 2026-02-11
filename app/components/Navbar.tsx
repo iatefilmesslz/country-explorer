@@ -39,6 +39,16 @@ export default function Navbar() {
                             Favoritos
                         </Link>
 
+                        <Link
+                            href="/video"
+                            className={`px-3 py-1 rounded-md transition-colors font-medium ${pathname === "/video"
+                                ? "bg-primary text-primary-foreground dark:bg-white dark:text-black"
+                                : "hover:bg-gray-100 dark:hover:bg-secondary text-black dark:text-white"
+                                }`}
+                        >
+                            Vídeo
+                        </Link>
+
                         {/* Botón Dark/Light */}
                         <button
                             onClick={toggleTheme}
