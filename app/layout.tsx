@@ -1,10 +1,10 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Sora } from "next/font/google";
 import Navbar from "./components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const sora = Sora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Country Explorer",
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={inter.className} suppressHydrationWarning>
+      <body className={sora.className} suppressHydrationWarning>
         <Navbar />
         <main>{children}</main>
       </body>
